@@ -17,7 +17,6 @@ import javax.imageio.ImageIO
 fun main() {
     val image = ImageIO.read(URL("https://www.baeldung.com/wp-content/uploads/2020/03/Screen-Shot-2020-03-08-at-10.43.12-AM.png"))
     val words = getWordsFromImage(image)
-//    val words = getWordsFromImage(image, "rus")
     for (word in words) {
         print(word.text + " ")
     }
