@@ -6,9 +6,10 @@ Tesseract OCR — это оптический механизм чтения си
 #### Пример распознавания:
 
 Изображение:
-![](src/test/resources/test.jpg)
+![](src/test/resources/test2.jpg)
 
-Распознанный текст: DO YOU SPEAK ENGLISH?
+Распознанный текст:  
+DO YOU SPEAK ENGLISH? ДА
 
 -----------
 Сделано на основе **[статьи](https://habr.com/ru/company/funcorp/blog/518340/)**
@@ -18,3 +19,5 @@ tesseract installation:
 brew install tesseract
 brew install tesseract-lang
 ```
+
+```tesseract test2.jpg out -l eng+rus```

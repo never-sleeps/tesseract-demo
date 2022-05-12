@@ -15,8 +15,8 @@ import java.net.URL
 import javax.imageio.ImageIO
 
 fun main() {
-    val image = ImageIO.read(URL("https://www.baeldung.com/wp-content/uploads/2020/03/Screen-Shot-2020-03-08-at-10.43.12-AM.png"))
-    val words = getWordsFromImage(image)
+    val path = "https://raw.githubusercontent.com/never-sleeps/tesseract-demo/master/src/test/resources/test2.jpg"
+    val words = getWordsFromImage(ImageIO.read(URL(path)), "rus+eng")
     for (word in words) {
         print(word.text + " ")
     }
