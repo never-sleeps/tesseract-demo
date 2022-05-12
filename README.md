@@ -12,3 +12,9 @@ Tesseract OCR — это оптический механизм чтения си
 
 -----------
 Сделано на основе **[статьи](https://habr.com/ru/company/funcorp/blog/518340/)**
+-----------
+tesseract installation:
+```
+brew install tesseract
+brew install tesseract-lang
+```
